@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.model">
+
+    <class name="LeaveRequest" table="leaverequest">
+      <id name="requestId" column="requestId">
+            <generator class="increment"/>
+        </id>
+        <property name="employeeId" type="integer" column="employeeId"/>
+        <property name="managerId" type="integer" column="managerId"/>
+        <property name="requestDate" type="string" column="requestDate"/>
+        <property name="fromDate" type="string" column="fromDate"/>
+      	 <property name="toDate" type="string" column="toDate"/>
+        <property name="status" type="string" column="status"/>
+        <property name="reason" type="string" column="reason"/>
+    </class>
+
+</hibernate-mapping>

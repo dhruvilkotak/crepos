@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.model">
+
+    <class name="Employee" table="employee">
+      <id name="employeeId" column="employeeId">
+            
+        </id>
+        <property name="assignedManager" type="integer" column="assignedManager"/>
+        <property name="salary" type="double" column="salary"/>
+        <property name="bonus" type="double" column="bonus"/>
+        <property name="leaveDays" type="integer" column="leaveDays"/>
+    </class>
+
+</hibernate-mapping>

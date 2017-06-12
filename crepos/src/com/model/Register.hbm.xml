@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.model">
+
+    <class name="Register" table="register">
+      <id name="employeeId" column="employeeId">
+        </id>
+        <property name="firstName" type="string" column="firstName"/>
+      	 <property name="lastName" type="string" column="lastName"/>
+      	<property name="emailId" type="string" column="emailId"/>
+      	 <property name="password" type="string" column="password"/>
+      	<property name="role" type="string" column="role"/>
+      	<property name="phoneNumber" type="integer" column="phoneNumber"/>
+      	 <property name="dob" type="string" column="dob"/>
+     	 <property name="gender" type="string" column="gender"/>
+     	 <property name="question" type="string" column="question"/>
+     	 <property name="answer" type="string" column="answer"/>
+     	 <property name="profile" column="profile"/>
+    </class>
+
+</hibernate-mapping>	

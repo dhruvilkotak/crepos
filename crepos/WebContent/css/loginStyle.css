@@ -1,0 +1,121 @@
+body
+{
+/*   background: url(http://2.bp.blogspot.com/-Xmo26BMqg5Q/UihlqVwTwgI/AAAAAAAAAv0/V-Rrgm0V6oo/s1600/Top+10+best+Simple+Awesome+Background+Images+for+Your+Website+or+Blog3.jpg) no-repeat center center fixed; */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+}
+h1
+{
+  text-align: center;
+  margin: 0 0 20px;
+  font-size: 60px;
+  font-weight: 200;
+  color: white;
+}
+.Signin-Box
+ {
+  padding: 40px;
+  width: 274px;
+  background-color: white;
+  margin: 40px auto 10px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  border-radius: 5px;
+}
+.Signin-Box h2
+{
+  margin-top: 1px;
+  margin-bottom: 20px;
+  font-weight: 100;
+  text-align: center;
+  font-size: 3em;
+}
+
+.Signin-Box input[type=submit]
+{
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+  position: relative;
+  border-radius: 20px;
+}
+
+.Signin-Box input[type=text], input[type=password], input[type=name], input[type=email]
+ {
+  height: 44px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 10px;
+  -webkit-appearance: none;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  padding: 0 8px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  border-radius: 20px;
+}
+.gender
+{
+  margin-left: 6px;
+  margin-bottom: 6px;
+}
+.Signin-Box input[type=text]:hover, input[type=password]:hover
+{
+  border: 1px solid #b9b9b9;
+  border-top: 1px solid #a0a0a0;
+  -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.login
+{
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Arial', sans-serif;
+  font-weight: 700;
+  height: 36px;
+  padding: 0 8px;
+}
+
+.login-submit
+{
+  border: 0px;
+  color: #fff;
+  text-shadow: 0 1px rgba(0,0,0,0.1);
+  background-color:#171616;
+}
+
+.login-submit:hover
+{
+  border: 0px;
+  text-shadow: 0 1px rgba(0,0,0,0.3);
+  background-color: #357ae8;
+}
+
+.Signin-Box a
+ {
+  text-decoration: none;
+  color: #666;
+  font-weight: 400;
+  text-align: center;
+  display: inline-block;
+  opacity: 0.6;
+  transition: opacity ease 0.5s;
+}
+
+.Signin-Box a:hover
+{
+  opacity: 1;
+}
+
+.Reg-ForgotP
+{
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+}

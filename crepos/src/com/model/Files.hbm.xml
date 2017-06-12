@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.model">
+
+    <class name="Files" table="files">
+      <id name="fileId" column="fileId">
+      <generator class="increment"/>
+        </id>
+        <property name="fileName" type="string" column="fileName"/>
+        <property name="parentDir" type="integer" column="parentDir"/>
+        <property name="ownerId" type="integer" column="ownerId"/>
+        <property name="file" column="file"/>
+        <property name="date" type="string" column="date"/>
+    </class>
+
+</hibernate-mapping>
